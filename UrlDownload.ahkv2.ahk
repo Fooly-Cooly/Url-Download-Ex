@@ -1,6 +1,6 @@
 ;================================================================================;
-;	UrlDownload - An AutoHotkey v2 library for downloading files                 ;
-;	Copyright (C) 2016  Fooly Cooly https://github.com/Fooly-Cooly               ;
+;	UrlDownload - An AutoHotkey library for downloading files                    ;
+;	Copyright (C) 2016-2026 Fooly Cooly https://github.com/Fooly-Cooly           ;
 ;	Licensed with GPL v3 https://www.gnu.org/licenses/gpl-3.0.txt                ;
 ;================================================================================;
 
