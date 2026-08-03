@@ -21,7 +21,7 @@ try
 
 	if (success)
 	{
-		MsgBox, 36, Success, % "Download complete!`n`nSaved to: " . downloadsDir . "\1MB.zip`n`nWould you like to open the Downloads folder?"
+		MsgBox, 36, Success, % "Download complete!`n`nSaved to: " . downloadsDir . "\5MB.zip`n`nWould you like to open the Downloads folder?"
 		IfMsgBox, Yes
 			Run, % downloadsDir
 	}

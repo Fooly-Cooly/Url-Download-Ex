@@ -18,7 +18,7 @@ try
 
 	if success
 	{
-		result := MsgBox("Download complete!`n`nSaved to: " . downloadsDir . "\1MB.zip`n`nWould you like to open the Downloads folder?", "Success", "36")
+		result := MsgBox("Download complete!`n`nSaved to: " . downloadsDir . "\5MB.zip`n`nWould you like to open the Downloads folder?", "Success", "36")
 		if (result == "Yes")
 			Run(downloadsDir)
 	}

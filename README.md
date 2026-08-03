@@ -20,10 +20,10 @@ Unlike the built-in `UrlDownloadToFile` command, this library provides a real-ti
 
 | File | Description |
 | --- | --- |
+| `UrlDownload.ahkv1.ahk` | Production-ready library for **AHK v1.1** |
 | `UrlDownload.ahkv2.ahk` | Production-ready library for **AHK v2** |
+| `Test_UrlDownload.ahkv1.ahk` | Interactive test script for **AHK v1.1** |
 | `Test_UrlDownload.ahkv2.ahk` | Interactive test script for **AHK v2** |
-| `UrlDownload.ahk` | Production-ready library for **AHK v1.1** |
-| `Test_UrlDownload.ahk` | Interactive test script for **AHK v1.1** |
 | `LICENSE` | Full GPLv3 License text |
 
 ---
@@ -37,7 +37,7 @@ Unlike the built-in `UrlDownloadToFile` command, this library provides a real-ti
 
 ; Download a file to a specific path
 try {
-    success := urlDownload_File("https://download.thinkbroadband.com/1MB.zip", A_ScriptDir . "\1MB.zip", true)
+    success := urlDownload_File("https://download.thinkbroadband.com/5MB.zip", A_ScriptDir . "\5MB.zip", true)
     if (success)
         MsgBox("Download complete!", "Success", "64")
 } catch Error as err {
@@ -53,7 +53,7 @@ try {
 
 ; Download a file to a target folder
 try {
-    success := urlDownload_File("https://download.thinkbroadband.com/1MB.zip", A_Desktop, true)
+    success := urlDownload_File("https://download.thinkbroadband.com/5MB.zip", A_Desktop, true)
     if (success)
         MsgBox, 64, Success, Download complete!
 } catch err {
